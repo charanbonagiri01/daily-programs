@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-//fucntion to removes duplicate and prints unique sets that satisfies condition a+b+c=0 
+//function to removes duplicate and prints unique sets that satisfies condition a+b+c=0 
 int sets(int a[],int n)					
 {
 	int i,j,k,b[100][3],x=0;
@@ -50,7 +50,7 @@ int main()
 	}	
 	//calling the function sets by passing th parameters array and no of elements in array
 	sets(a,n);				
-	//frees the memory allocated dynamically to an array 'a' 
+	//free the memory allocated dynamically to an array 'a' 
 	free(a);
 	return 0;
 }
